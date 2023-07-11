@@ -1,0 +1,97 @@
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: url(image/IMG_20230705_074451.png) no-repeat 100%;
+    height: 500px;
+    background-size:cover;
+    text-transform: uppercase;
+    margin: 50px;
+       
+    
+}
+header h1, p, li {
+    font-family: 'kenia', cursive;
+}
+/*section fist*/
+section div{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    text-transform: uppercase;
+}
+/*classe*/
+.dessinateur{
+    background-color: blue;
+}
+.informatique{
+    background-color: cornflowerblue;
+}
+.intéret{
+    background-color: blueviolet;
+
+}
+.contt{
+    background-color: aqua;
+}
+
+/*navigation menu*/
+nav.menu ul li{
+    list-style-type: none; /*suppresion des puces pour le menu de navigation*/
+    display: flex; /*mise en ligne pour les éléments de navigation*/
+    align-items: center;
+    justify-content: center;
+}
+nav.menu ul li:hover{
+    transform: scale(1.5);
+    transition: 0.3s all;
+}
+nav.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav.menu ul {
+    display: flex;
+    flex-direction: row;
+}
+.nav-item{
+    padding: 50px;
+    flex: 1;
+}
+nav.menu{
+    background-color: gray;
+    width: 100%;
+    justify-content: center;
+    
+    
+}
+.cons{
+    border: 5px solid white ;
+    padding: 30px;
+}
+.présent{
+    border: 5px solid white;
+    padding: 15px;
+}
+.centre{
+    border: 5px solid white ;
+    padding: 30px;
+}
+section#info div.inf{
+    border: 5px solid white ;
+    padding: 30px;
+    
+}
